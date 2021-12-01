@@ -18,8 +18,8 @@
 		bindings = <
         &kp TAB       &kp Q        &kp W     &kp F       &kp P    &kp B                &kp J     &kp L     &kp U       &kp Y       &kp SQT    &kp ESC
         &kp LCTRL     &kp A        &kp R     &kp S       &kp T    &kp G      &kp DEL   &kp M     &kp N     &kp E       &kp I       &kp O      &kp RCTRL
-        &kp LGUI      &kp Z        &kp X     &kp C       &kp D    &kp V    &kp LSHIFT  &kp K     &kp H     &kp COMMA   &kp DOT     &kp FSLH   &kp RGUI  
-        &kp LALT      &none       &none     &none    &none   &none   &none      &none &none    &none   &none       &none      &kp RALT  
+        &kp LGUI      &kp Z        &kp X     &kp C       &kp D    &kp V    &kp LSHFT  &kp K     &kp H     &kp COMMA   &kp DOT     &kp FSLH   &kp RGUI  
+        &kp LALT      &none        &none     &none       &none    &none     &none      &none     &none     &none       &none       &none      &kp RALT  
                         >;
 			sensor-bindings = <&inc_dec_kp DEL BSPC>;
                 };
