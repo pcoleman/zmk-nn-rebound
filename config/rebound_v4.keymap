@@ -41,7 +41,7 @@
         &trans &kp GRAVE &kp N1   &kp N2   &kp N3 &kp BSLH    &kp MINUS       &none        &none    &none    &none    &none   &kp RGUI
         &trans &none     &none    &kp N0   &none  &kp SPACE   &none           &trans       &none    &none    &none    &none   &kp RALT
                                 >;
-                                
+                        sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
                 };
 
 
