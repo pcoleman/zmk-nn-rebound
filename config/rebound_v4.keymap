@@ -12,6 +12,22 @@
 
 / {
     keymap {
+            lower_layer {
+// ----------------------------------------------------------------------------------
+// |  !   |  @  |  #  |  $  |  %  |  `  |                   |     | HOME | PGUP |  UP  | PGDN |      |
+// |  ^   |  &  |  *  |  (  |  )  |  ~  |     |       |     |     | END  | LEFT | DOWN | RGHT |      |
+// |  _   |  +  |  {  |  }  | "|" |     |     |       |     |     |      |      |      |      |      |
+// | ESC  | ALT | GUI | CAPS|  "  |     |     |       |     |     |      |      |      |      |      | 
+//
+		bindings = < 
+   &none     &none    &none    &none    &none     &none                     &none    &none    &none     &none     &none     &none   
+   &none     &none    &none    &none    &none     &none         &none       &kp HOME &kp LEFT &kp UP    &kp RIGHT &kp END   &none
+   &none     &none    &none    &none    &none     &none         &none       &none    &none    &kp DOWN  &none     &none     &none
+   &none     &none    &none    &none    &none     &none         &none       &none    &none    &none     &none     &none     &none
+                        >;
+
+			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
+                };
        };
 
 };
