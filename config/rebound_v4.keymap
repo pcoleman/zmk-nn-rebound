@@ -107,7 +107,7 @@
         &rgb_ug RGB_TOG     &kp Q        &kp W     &kp F       &kp P    &kp B                &kp J     &kp L     &kp U       &kp Y       &kp SQT    &none
         &none     &kp A        &kp R     &kp S       &kp T    &kp G      &kp DEL   &kp M     &kp N     &kp E       &kp I       &kp O      &none
         &none     &kp Z        &kp X     &kp C       &kp D    &kp V     &kp LSHFT  &kp K     &kp H     &kp COMMA   &kp DOT     &mo FUN    &none
-        &none     &none        &none     &none       &mo SYM  &kp SPACE &kp C_MUTE &lt NAV  &mo NUM   &none       &none       &none      &none
+        &none     &none        &none     &none       &mo SYM  &kp SPACE &kp C_MUTE &lt BSPC NAV  &mo NUM   &none       &none       &none      &none
                         >;
 			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
                 };
