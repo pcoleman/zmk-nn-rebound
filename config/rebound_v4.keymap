@@ -104,12 +104,12 @@
 
         colemak_layer {                      					  
 		bindings = <
-        &rgb_ug RGB_TOG     &kp Q        &kp W     &kp F       &kp P    &kp B                &kp J     &kp L     &kp U       &kp Y       &kp SQT    &none
+        &none     &kp Q        &kp W     &kp F       &kp P    &kp B                &kp J     &kp L     &kp U       &kp Y       &kp SQT    &none
         &none     &kp A        &kp R     &kp S       &kp T    &kp G      &kp DEL   &kp M     &kp N     &kp E       &kp I       &kp O      &none
         &none     &kp Z        &kp X     &kp C       &kp D    &kp V     &kp LSHFT  &kp K     &kp H     &kp COMMA   &kp DOT     &mo FUN    &none
-        &none     &none        &none     &none       &mo SYM  &kp SPACE &kp C_MUTE &lt BSPC NAV  &mo NUM   &none       &none       &none      &none
+        &none     &none        &none     &none       &mo SYM  &kp SPACE &kp C_MUTE &lt NAV BSPC  &mo NUM   &none       &none       &none      &none
                         >;
-			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+			        sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
                 };
 
         symbol_layer {
@@ -118,7 +118,7 @@
         &none &kp STAR  &kp LPAR    &kp RPAR  &kp COLON &none   &kp C_AL_LOCK  &none   &kp SEMI        &kp LBRC        &kp RBRC        &none    &none
         &none &none     &kp GRAVE   &kp AT    &kp AMPS  &none   &kp LSHFT      &none   &kp HASH        &kp LT          &kp GT          &none    &none
         &none &none     &none       &trans    &none  &kp SPACE       &none        &kp BSPC     &none        &kp ESC        &none        &none        &trans
-                                >;
+                        >;
                         sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
                 };
 
@@ -128,7 +128,7 @@
         &none &kp DOT   &kp N1 &kp N2 &kp N3 &none          &kp C_SLEEP     &none      &kp DQT  &kp UNDER &kp EQUAL &mo NAV  &none 
         &none &kp TILDE  &kp N7 &kp N8 &kp N9 &none          &none           &none      &kp PLUS &kp QMARK &kp EXCL  &kp DEL &none
         &none &none     &none  &none &kp N0  &kp SPACE      &none           &kp BSPC   &none    &none     &none     &none   &none
-                                >;
+                        >;
                         
                 };
 
@@ -142,11 +142,12 @@
                 };         
         nav_layer {
                 bindings = <
-        &none &none     &none    &none    &none &none          &none    &none     &none     &none     &none  &none 
-        &none &none     &none    &none    &none &none  &none   &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &trans &none 
-        &none &none     &none    &none    &none &none  &none   &kp HOME &kp PG_DN &kp PG_UP &kp END   &none  &none 
-        &none &none     &none    &trans   &none &trans &none   &trans   &none     &trans    &none     &none    &trans
+        &none &none     &none    &none    &none &none                   &none    &none     &none     &none     &none  &none 
+        &none &none     &none    &none    &none &none  &none            &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &trans &none 
+        &none &none     &none    &none    &none &none  &none            &kp HOME &kp PG_DN &kp PG_UP &kp END   &none  &none 
+        &none &none     &none    &trans   &none &trans &rgb_ug RGB_TOG  &trans   &none     &trans    &none     &none  &trans
                         >;
+                        sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
                 };
         };
 };
