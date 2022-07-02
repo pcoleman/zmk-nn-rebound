@@ -43,7 +43,7 @@
 		bindings = <
         &kp MINUS           &kp Q           &kp W     &kp F       &kp P        &kp B                    &kp J     &kp L          &kp U       &kp Y       &kp SEMI   &kp BSLH
         &kp BSPC            &kp A           &kp R     &kp S       &kp T        &kp G      &lt NAV ESC   &kp M     &kp N          &kp E       &kp I       &kp O      &kp ENTER
-        &mt LSHIFT GRAVE    &kp Z           &kp X     &kp C       &kp D        &kp V      &kp F24       &kp K     &kp H          &kp COMMA   &kp DOT     &kp QMARK  &mt RSHIFT SQT
+        &mt LSHIFT GRAVE    &kp Z           &kp X     &kp C       &kp D        &kp V      &kp F24       &kp K     &kp H          &kp COMMA   &kp DOT     &kp FSLH   &mt RSHIFT SQT
         &mt LCTRL TAB       &kp LEFT_GUI    &kp LALT  &kp F19     &lt SYM F17  &kp SPACE  &kp C_AL_LOCK &kp SPACE &lt NUM F18    &kp LEFT    &kp DOWN    &kp UP     &kp RIGHT
                         >;
 			        sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -63,7 +63,7 @@
 		bindings = <
         &trans     &kp Q        &kp W     &kp E       &kp R    &kp T                &kp Y     &kp U     &kp I       &kp O       &kp P        &trans
         &trans     &kp A        &kp S     &kp D       &kp F    &kp G    &trans      &kp H     &kp J     &kp K       &kp L       &kp SEMI     &trans
-        &kp LSHIFT &kp Z        &kp X     &kp C       &kp V    &kp B    &trans      &kp N     &kp M     &kp COMMA   &kp DOT     &kp QMARK    &kp RSHIFT
+        &kp LSHIFT &kp Z        &kp X     &kp C       &kp V    &kp B    &trans      &kp N     &kp M     &kp COMMA   &kp DOT     &kp FSLH     &kp RSHIFT
         &kp LCTRL  &trans       &trans    &trans      &trans   &trans   &trans      &kp F8    &trans    &trans      &trans      &trans       &trans
                         >;
 			        sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
