@@ -46,7 +46,7 @@
         &mt LSHIFT GRAVE    &kp Z           &kp X     &kp C       &kp D        &kp V      &kp F24       &kp K     &kp H          &kp COMMA   &kp DOT     &kp FSLH   &mt RSHIFT SQT
         &mt LCTRL TAB       &kp LEFT_GUI    &kp LALT  &kp F19     &lt SYM F17  &kp SPACE  &kp C_AL_LOCK &kp SPACE &lt NUM F18    &kp LEFT    &kp DOWN    &kp UP     &kp RIGHT
                         >;
-			        sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+			        sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
                 };
 
         qwerty_layer {                      					  
@@ -56,7 +56,7 @@
         &trans     &kp Z        &kp X     &kp C       &kp V    &kp B    &trans      &kp N     &kp M     &kp COMMA   &kp DOT     &kp QMARK    &trans
         &trans     &trans       &trans    &trans      &trans   &trans   &trans      &trans    &trans    &trans      &trans      &trans       &trans
                         >;
-			        sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+			        sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
                 };
 
         game_layer {                      					  
@@ -66,7 +66,7 @@
         &kp LSHIFT &kp Z        &kp X     &kp C       &kp V    &kp B    &trans      &kp N     &kp M     &kp COMMA   &kp DOT     &kp FSLH     &kp RSHIFT
         &kp LCTRL  &trans       &trans    &trans      &trans   &trans   &trans      &kp F8    &trans    &trans      &trans      &trans       &trans
                         >;
-			        sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+			        sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
                 };
 
         symbol_layer {
@@ -76,7 +76,7 @@
         &trans  &kp F1  &kp F2   &kp F3    &kp F4  &trans   &trans     &trans   &kp EXCL        &kp AT          &kp HASH        &trans    &trans
         &trans  &trans  &trans   &trans    &trans  &trans   &trans     &trans   &trans          &kp HOME        &kp PG_UP       &kp PG_DN &kp END
                         >;
-                        sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+                        sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
                 };
 
         number_layer {
@@ -104,7 +104,7 @@
         &trans       &trans        &trans       &trans       &trans &to GAM  &trans           &trans &trans  &trans       &trans       &trans       &trans 
         &bt BT_CLR   &trans        &trans       &trans       &trans &to RGB  &bootloader      &trans &trans  &trans       &trans       &trans       &trans
                         >;
-                        sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+                        sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
                 };
         };
 };
